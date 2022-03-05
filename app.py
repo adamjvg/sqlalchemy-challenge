@@ -53,6 +53,7 @@ def main():
         f"/api/v1.0/stations<br/>"
         f"/api/v1.0/tempobs<br/>"
         f"/api/v1.0/<start><br/><end>"
+        f"/api/v1.0/<start>"
     )
 
 @app.route("/api/v1.0/precipitation")
